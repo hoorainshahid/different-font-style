@@ -1,0 +1,45 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(250, 224, 224);
+    font-size: 24px;
+}
+
+div {
+    background-color: rgb(67, 185, 185);
+}
+
+@font-face {
+    font-family: dancingscript;
+    src: url(./Dancing_Script/DancingScript-VariableFont_wght.ttf);
+}
+
+div {
+    font-family: dancingscript;
+}
+
+#box {
+    background-color: grey;
+    font-family: regular;
+}
+
+#back {
+    background-color: rgb(158, 118, 158);
+    font-family: semibold;
+}
+
+h1 {
+    font-weight: bold;
+    color: black;
+    font-family: dancingscript;
+}
+
+@font-face {
+    font-family: semibold;
+    src: url(./Dancing_Script/static/DancingScript-SemiBold.ttf);
+
+}
+
+@font-face {
+    font-family: regular;
+    src: url(./Dancing_Script/static/DancingScript-Regular.ttf);
+}
